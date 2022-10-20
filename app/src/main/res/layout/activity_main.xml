@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/dotorimain">
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dotori_text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/dotoritext" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/dotori_text"
+        android:background="@drawable/round_button2"
+        android:text="로그인"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/dotoribackground">
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/right_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/buttonright"
+        android:layout_marginStart="250dp"/>
+
+    <ImageButton
+        android:id="@+id/left_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonleft"
+        android:layout_marginTop="655dp"
+        android:layout_marginStart="100dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExplanationWithDotori"
+    android:background="@drawable/dotoribackground">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOTORI, Dormitory를 담다."
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_below="@id/title_text"
+        android:layout_marginTop="30dp"
+        android:text="DOTORI란? GSM 기숙사 관리 시스템으로 이전 기숙사 자치위원회 디스코드 커뮤니티의 문제점을 개선하기 위해 학생 주체적으로개발하여 효율적인 서비스 제공을 목적으로 만들어진 웹사이트입니다.우리 학교의 커뮤니티 비중이 디스코드로 쏠려있는 점을 해결함과 동시에 소프트웨어 마이스터고등학교라는 이름에 걸맞게 12명의 인원이 직접 개발한 웹 사이트입니다.현재 우리 학교를 알릴 수 있는 수단이 매우 적다고 생각하였고, 이런 작은 서비스 하나하나가 우리 학교의 인식을 바꾸고 좋은 마케팅 거리가 되어 우리 학교의 수준을 내보일 수 있다는 마음가짐으로 만든 웹 사이트입니다."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/right_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/buttonright"
+        android:layout_marginStart="250dp"/>
+
+    <ImageButton
+        android:id="@+id/left_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonleft"
+        android:layout_marginTop="655dp"
+        android:layout_marginStart="100dp"/>
+
+</RelativeLayout>
